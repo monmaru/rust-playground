@@ -70,9 +70,7 @@ fn post_gcd(request: &mut Request) -> IronResult<Response> {
                 ));
                 return Ok(response);
             }
-            Ok(n) => {
-                numbers.push(n);
-            }
+            Ok(n) => numbers.push(n),
         }
     }
 
