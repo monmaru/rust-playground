@@ -1,0 +1,11 @@
+[package]
+name = "bitonic-sorter"
+version = "0.1.0"
+authors = ["monmaru"]
+edition = "2018"
+
+[dependencies]
+num_cpus = "1.8"
+rand = "0.6"
+rand_pcg = "0.1"
+rayon = "1.0"
