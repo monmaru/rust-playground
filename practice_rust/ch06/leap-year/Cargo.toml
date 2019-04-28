@@ -1,0 +1,7 @@
+[package]
+name = "leap-year"
+version = "0.1.0"
+authors = ["monmaru"]
+edition = "2018"
+
+[dependencies]
